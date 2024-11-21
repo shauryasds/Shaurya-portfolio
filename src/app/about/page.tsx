@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { FaGithub, FaLinkedin, FaFileCode, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFileCode } from 'react-icons/fa';
 
 function AboutPage() {
   return (
@@ -12,7 +12,7 @@ function AboutPage() {
       <div className="max-w-4xl mx-auto pt-32">
         <h1 className="text-6xl font-extrabold text-center mb-6">About Me</h1>
         <p className="text-xl text-center mb-10">
-          Hi, I'm <span className="font-semibold">Shaurya Deep Shukla</span>, a passionate Full Stack Web Developer.
+          Hi, I am <span className="font-semibold">Shaurya Deep Shukla</span>, a passionate Full Stack Web Developer.
         </p>
 
         <div className="text-center mb-10">

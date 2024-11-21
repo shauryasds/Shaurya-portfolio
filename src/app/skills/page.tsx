@@ -1,7 +1,7 @@
 import React from 'react';
 import { BackgroundGradientDemo } from '@/components/colorCard';
-import { FaReact, FaNodeJs, FaDatabase, FaDocker, FaCodeBranch, FaServer, FaFileCode } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiTypescript, SiNextdotjs, SiTailwindcss, SiGraphql, SiRedux } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaDocker, FaCodeBranch, FaServer } from 'react-icons/fa';
+import { SiExpress, SiMongodb, SiTypescript, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 function Skills() {
   const skills = [

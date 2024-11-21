@@ -3,7 +3,6 @@ import React from "react";
 import { Boxes } from "@/components/ui/background-boxes";
 import { Cover } from "@/components/ui/cover";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 import ProjectsPage from "./projects/page";
 import Skills from "./skills/page";
 import ContactPage from "./contact/page";

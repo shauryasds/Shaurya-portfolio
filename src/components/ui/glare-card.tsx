@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { useRef } from "react";
-
+interface ContainerStyle {
+  [key: string]: string;  }
 export const GlareCard = ({
   children,
   className,
@@ -8,6 +9,7 @@ export const GlareCard = ({
   children: React.ReactNode;
   className?: string;
 }) => {
+  
   const isPointerInside = useRef(false);
   const refElement = useRef<HTMLDivElement>(null);
   const state = useRef({
@@ -24,7 +26,7 @@ export const GlareCard = ({
       y: 0,
     },
   });
-  const containerStyle = {
+  const containerStyle: ContainerStyle = {
     "--m-x": "50%",
     "--m-y": "50%",
     "--r-x": "0deg",
@@ -37,7 +39,7 @@ export const GlareCard = ({
     "--radius": "48px",
     "--easing": "ease",
     "--transition": "var(--duration) var(--easing)",
-  } as any;
+  } ;
 
   const backgroundStyle = {
     "--step": "5%",

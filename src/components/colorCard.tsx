@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient.tsx";
-import Image from "next/image";
+
 
 interface BackgroundGradientDemoProps {
   name: string;
