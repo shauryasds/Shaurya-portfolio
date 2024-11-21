@@ -9,7 +9,7 @@ import ContactPage from "./contact/page";
 import AboutPage from "./about/page";
 import {  useState } from 'react';
 export default function BackgroundBoxesDemo() {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   // useEffect(() => {
   //   const timer = setTimeout(() => {
