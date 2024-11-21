@@ -22,11 +22,7 @@ export default function BackgroundBoxesDemo() {
   return (
     <>
     <div className="min-h-[100vh] relative w-full overflow-hidden bg-black flex flex-col items-center justify-center">
-    {loading && (
-      <div className="fixed inset-0 flex items-center justify-center bg-black  z-50">
-        <div className="animate-spin rounded-full h-24 w-24 border-8 border-white border-opacity-25 border-t-transparent"></div>
-      </div>
-    )}
+    
       <Boxes />
       <h1
         className={cn(
