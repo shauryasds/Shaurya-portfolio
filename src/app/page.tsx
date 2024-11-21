@@ -7,7 +7,7 @@ import ProjectsPage from "./projects/page";
 import Skills from "./skills/page";
 import ContactPage from "./contact/page";
 import AboutPage from "./about/page";
-import {  useState } from 'react';
+// import {  useState } from 'react';
 export default function BackgroundBoxesDemo() {
   // const [loading, setLoading] = useState(true);
 
