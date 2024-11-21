@@ -7,17 +7,17 @@ import ProjectsPage from "./projects/page";
 import Skills from "./skills/page";
 import ContactPage from "./contact/page";
 import AboutPage from "./about/page";
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 export default function BackgroundBoxesDemo() {
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
 
-    return () => clearTimeout(timer); 
-  }, []);
+  //   return () => clearTimeout(timer); 
+  // }, []);
 
   return (
     <>
